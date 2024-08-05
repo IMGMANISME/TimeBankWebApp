@@ -9,11 +9,11 @@ import { AuthService } from '../services/auth.service';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-  private auth = inject(AuthService);
+  // private auth = inject(AuthService);
 
-  async handleAuth() {
-    const response = await this.auth.singInGoogle()
-  }
+  // async handleAuth() {
+  //   const response = await this.auth.singInGoogle()
+  // }
 
   test() {
     console.log('test');

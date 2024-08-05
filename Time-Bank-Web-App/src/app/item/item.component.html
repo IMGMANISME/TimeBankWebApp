@@ -1,0 +1,6 @@
+<div *ngIf="items.length === 0">No items available.</div>
+<ul>
+    <li *ngFor="let item of items">
+        {{ item.name }} <!-- Adjust the property names based on your actual data structure -->
+    </li>
+</ul>
